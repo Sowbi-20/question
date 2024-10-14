@@ -9,11 +9,11 @@ const App = () => {
     <Router>
       <div className="container mx-auto">
         <nav className="flex space-x-4 p-4">
-          <Link to="/" className="text-blue-500">Page 1</Link>
+          <Link to="/page1" className="text-blue-500">Page 1</Link>
           <Link to="/page2" className="text-blue-500">Page 2</Link>
         </nav>
         <Routes>
-          <Route path="/" element={<DataPage1 />} />
+          <Route path="/page1" element={<DataPage1 />} />
           <Route path="/page2" element={<DataPage2 />} />
         </Routes>
       </div>

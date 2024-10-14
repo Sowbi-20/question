@@ -19,7 +19,7 @@ const DataPage1 = () => {
           <p className="mt-2">{data.description}</p>
         </>
       ) : (
-        <p>Loading...</p>
+        <p>hello sow...</p>
       )}
     </div>
   );
